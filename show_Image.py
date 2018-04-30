@@ -24,9 +24,12 @@ while True:
 
     kanji_list = [ta, naka, de, machi, kawa, mura]
 
-    for i in range(0,6):
-        display.show(kanji_list[i])
-        if i % 2 == 0:
-            sleep(1000)
-        else:
-            sleep(2000)
+    # for i in range(0,6):
+    #     display.show(kanji_list[i])
+    #     if i % 2 == 0:
+    #         sleep(1000)
+    #     else:
+    #         sleep(2000)
+
+    # １行で書ける
+    display.show(kanji_list, delay=1000)
